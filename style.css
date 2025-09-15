@@ -1,4 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
 #box{
+    
     width: 500px;
     height: 300px;
     border:2px solid red ;
@@ -43,3 +51,41 @@
     left: 940px;
     bottom: 80px;
 }
+
+ 
+.header2 {
+    margin: 0 auto; 
+    width:1300px ;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image:url("https://i.gifer.com/origin/43/43a442f88898b59699fb7e30dc31e5eb_w200.gif") ;
+     height: 100vh;
+  background-repeat: no-repeat;
+  background-size:cover ;
+  height: 100%;
+    color: white;
+    border-radius: 20px;
+    font-size:30px ;
+
+
+}
+
+.header2:hover{
+    width:1350px ;
+    height: 160px;
+background-image: url("https://i.makeagif.com/media/4-03-2017/r4Hcw9.gif") ;
+    transition: all 0.3s ease;
+      color: rgb(191, 21, 21) ;
+}
+.header2 img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+  ;
+}
+
+
+
+
